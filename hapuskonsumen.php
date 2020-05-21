@@ -6,6 +6,7 @@ $username = $_GET['id'];
 die ("Error. NO Id Selected! ");
 }
 ?>
+
 <html>
 <head><title>Delete Konsumen</title>
 </head>
