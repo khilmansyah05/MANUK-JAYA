@@ -31,7 +31,7 @@ echo "<meta http-equiv='refresh' content='0;URL=index_admin.php?page=displaykons
 }
 ?>
 <html>
-<head><title>Edit konsumen</title>
+<head><title>Edit  konsumen</title>
 </head>
 <body>
 <FORM ACTION="" METHOD="POST" NAME="input">
