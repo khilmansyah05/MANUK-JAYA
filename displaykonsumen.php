@@ -69,6 +69,6 @@ if (confirm ("Apakah Anda yakin akan menghapus Konsumen ini ?")) {
                   </div>
               </div>
 		
-		
+
 </BODY>
 </HTML>
