@@ -22,6 +22,7 @@ if (isset($_POST['Reset'])) {
 echo "<meta http-equiv='refresh' content='0;URL=index_admin.php?page=displaykonsumen'>";
 }
 ?>
+
 <html>
 <head><title>Tambah User</title>
 </head>
