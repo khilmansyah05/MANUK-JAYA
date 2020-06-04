@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_call" type="id" />
+    <item name="action_sms" type="id" />
+    <item name="action_maps" type="id" />
+    <item name="action_update" type="id" />
+    <item name="action_logout" type="id" />
+</resources>
