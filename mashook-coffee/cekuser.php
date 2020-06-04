@@ -1,10 +1,4 @@
-<?php
-session_start();
-include "koneksi_ip.php";
-if (isset($_POST['submit'])) {
-if (isset($_POST['username'])) {
-$userid = $_POST['username'];
-$passwd=$_POST['password'];
+
 } else {
 die ("Error. No Id Selected! ");
 }
