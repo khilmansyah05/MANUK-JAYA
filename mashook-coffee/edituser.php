@@ -1,10 +1,13 @@
+
 <?php
 include "koneksi_ip.php";
 if (isset($_GET['id'])) {
 $kode = $_GET['id'];
-} else {
+} 
+else {
 die ("Error. No Id Selected! ");
 }
+/// cek query
 $query = "SELECT * FROM user WHERE id='$kode'";
 $sql = mysqli_query ($conn,$query);
 $hasil = mysqli_fetch_array ($sql);
@@ -37,6 +40,7 @@ if (isset($_POST['Reset'])) {
 echo "<meta http-equiv='refresh' content='0;URL=index_admin.php?page=displayuser'>";
 }
 ?>
+
 <html>
 <head><title>Edit user</title>
 </head>
