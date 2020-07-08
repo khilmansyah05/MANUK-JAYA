@@ -5,9 +5,10 @@
 <HEAD>
 <TITLE>Menampilkan Daftar Produk</TITLE>
 
+	
 <script language="javascript">
 function tanya() {
-if (confirm ("Apakah Anda yakin akan menghapus produk ini ?")) {
+if (confirm ("Apakah Anda yakin akan menghapus produk ini ????")) {
 	return true;
 } else {
 	return false;
@@ -42,8 +43,6 @@ if (confirm ("Apakah Anda yakin akan menghapus produk ini ?")) {
 								 <th><i class="icon_calendar"></i> Gambar</th>
                                  <th><i class="icon_cogs"></i> Action</th>
                               </tr>
-
-
 
 <?php
     $query = "SELECT * FROM produk order by kode";
