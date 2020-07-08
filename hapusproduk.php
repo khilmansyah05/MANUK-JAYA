@@ -12,6 +12,7 @@ die ("Error. NO Id Selected! ");
 <body>
 
 <?php
+	
 //proses delete produk
 if (!empty($kode) && $kode != "") {
 $getdata = mysqli_query($conn,"SELECT * FROM produk WHERE kode ='$kode'");
