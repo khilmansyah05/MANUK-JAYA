@@ -5,6 +5,7 @@ $kode = $_GET['id'];
 } else {
 die ("Error. No Id Selected! ");
 }
+
 //ambil data
 $query = "SELECT * FROM produk WHERE kode='$kode'";
 $sql = mysqli_query ($conn,$query);
